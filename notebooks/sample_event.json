@@ -1,0 +1,88 @@
+{
+    "version": "0",
+    "id": "83e0cab9-23a2-9d57-e5a5-0217ba0171c1",
+    "detail-type": "MongoDB Database Trigger for aapie.AAAssessmentEvent",
+    "source": "aws.partner/mongodb.com/stitch.trigger/63758b8030889a9c00506d14",
+    "account": "544739557829",
+    "time": "2023-01-19T22:19:53Z",
+    "region": "us-east-1",
+    "resources": [
+        "arn:aws:events:us-east-1::event-source/aws.partner/mongodb.com/stitch.trigger/63758b8030889a9c00506d14"
+    ],
+    "detail": {
+        "_id": {
+            "_data": "8263C9C209000000022B022C0100296E5A1004B6AA763D919B4F70A195F2BE08BF26E846645F6964006463C9C209FD1FA320AAA699860004"
+        },
+        "operationType": "insert",
+        "clusterTime": {
+            "T": 1674166793,
+            "I": 2
+        },
+        "fullDocument": {
+            "_id": "63c9c209fd1fa320aaa69986",
+            "version": 4,
+            "assessmentSeqId": 9456,
+            "consumableUniqueId": "3785e9f1cb8677113b290000000000000000000000000000000000000000000000",
+            "deviceUuid": "b9da7f05-996e-47e0-9491-1ad063428f5b",
+            "insertionState": "ACK",
+            "deviceAssessment": "GENUINE_HP",
+            "refill": "FALSE",
+            "pct10LevelRemaining": 100,
+            "pctLevelRemaining": 100,
+            "timestamp": 1674166793098,
+            "archive": false,
+            "_class": "com.hp.aa.aaservice.data.AAAssessmentEvent"
+        },
+        "ns": {
+            "db": "aapie",
+            "coll": "AAAssessmentEvent"
+        },
+        "documentKey": {
+            "_id": "63c9c209fd1fa320aaa69986"
+        }
+    }
+}
+{
+    "version": "0",
+    "id": "83e0cab9-23a2-9d57-e5a5-0217ba0171c1",
+    "detail-type": "MongoDB Database Trigger for aapie.AAAssessmentEvent",
+    "source": "aws.partner/mongodb.com/stitch.trigger/63758b8030889a9c00506d14",
+    "account": "544739557829",
+    "time": "2023-01-19T22:19:53Z",
+    "region": "us-east-1",
+    "resources": [
+        "arn:aws:events:us-east-1::event-source/aws.partner/mongodb.com/stitch.trigger/63758b8030889a9c00506d14"
+    ],
+    "detail": {
+        "_id": {
+            "_data": "8263C9C209000000022B022C0100296E5A1004B6AA763D919B4F70A195F2BE08BF26E846645F6964006463C9C209FD1FA320AAA699860004"
+        },
+        "operationType": "insert",
+        "clusterTime": {
+            "T": 1674166793,
+            "I": 2
+        },
+        "fullDocument": {
+            "_id": "63c9c209fd1fa320aaa69986",
+            "version": 4,
+            "assessmentSeqId": 9456,
+            "consumableUniqueId": "3785e9f1cb8677113b290000000000000000000000000000000000000000000000",
+            "deviceUuid": "b9da7f05-996e-47e0-9491-1ad063428f5b",
+            "insertionState": "ACK",
+            "deviceAssessment": "GENUINE_HP",
+            "refill": "FALSE",
+            "pct10LevelRemaining": 100,
+            "pctLevelRemaining": 100,
+            "timestamp": 1674166793098,
+            "archive": false,
+            "_class": "com.hp.aa.aaservice.data.AAAssessmentEvent"
+        },
+        "ns": {
+            "db": "aapie",
+            "coll": "AAAssessmentEvent"
+        },
+        "documentKey": {
+            "_id": "63c9c209fd1fa320aaa69986"
+        }
+    }
+}
